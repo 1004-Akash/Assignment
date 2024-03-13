@@ -56,11 +56,11 @@ class Triangle extends Shapes
     Scanner sc=new Scanner(System.in);
     Triangle()
     {
-    System.out.println("Enter the first side of the triangle");
+    System.out.println("Enter the breadth of the triangle");
     a=sc.nextInt();
-    System.out.println("Enter the second side of the triangle");
+    System.out.println("Enter the breadth of the triangle");
     b=sc.nextInt();
-    System.out.println("Enter the third side of the triangle");
+    System.out.println("Enter the length of the triangle");
     c=sc.nextInt();
     }
     void area()
