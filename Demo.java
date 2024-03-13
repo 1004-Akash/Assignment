@@ -8,9 +8,9 @@ abstract class Shapes
 class Circle extends Shapes
 {
     double c_area,c_perimeter;
+    Scanner sc=new Scanner(System.in);
     Circle()
     {
-    Scanner sc=new Scanner(System.in);
     System.out.println("Enter the radius of the circle");
     a=sc.nextInt();
     }
@@ -53,9 +53,9 @@ class Triangle extends Shapes
 {
     double t_area;
     int t_perimeter;
+    Scanner sc=new Scanner(System.in);
     Triangle()
     {
-    Scanner sc=new Scanner(System.in);
     System.out.println("Enter the first side of the triangle");
     a=sc.nextInt();
     System.out.println("Enter the second side of the triangle");
